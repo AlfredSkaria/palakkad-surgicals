@@ -1,0 +1,234 @@
+/* YOUR CUSTOM STYLES */
+
+/*#cont{
+	 width:1280px;
+}*/
+/*
+body{
+  height:1280px;
+}*/
+
+.custom-nav-container{
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+#svg-container{
+ display: inline-block;
+ position: relative;
+ width: 100%;
+ /*padding-bottom: 60%; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
+ 
+ /*vertical-align: middle; /* top | middle | bottom ... do what you want */
+}
+
+
+.second{
+	padding-top: 10px;
+}
+
+.nav li a{
+	
+	
+    background: #e0e0e0;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    outline: none;
+    /*padding: 10px 30px 10px ;*/
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    text-decoration: none;
+    color:white;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+
+ 	.nav li  a:before {
+        width: 0;
+        height: 0;
+        border-top: 20px inset transparent;
+        border-bottom: 20px inset transparent;
+        border-left: 20px solid #fff;
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        
+    }
+
+    .nav li a:after {
+
+        width: 0;
+        height: 0;
+        border-top: 20px inset transparent;
+        border-bottom: 20px inset transparent;
+        border-left: 20px solid #e0e0e0;
+        position: absolute;
+        content: "";
+        top: 0;
+        right: -20px;
+        z-index: 2;
+        transition: all 0.3s ease 0s;
+    }
+
+/*   .nav li a:active{
+   	color: yellow;
+    
+    transform:rotateX(360deg) rotateY(0deg) rotateZ(0deg) skewX(330deg);
+    transition: all 0.8s ease 0s;
+   }*/
+.nav li a.active{
+
+	background: green;
+}
+
+.nav li a.active:after{
+border-left: 20px solid green;
+}
+
+
+.zoom {
+  position: relative;
+  top: 20px;
+  left: 760px;
+  height: 70px;
+}
+
+.zoom-fab {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #009688;
+  vertical-align: middle;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.2s ease-out;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: #FFF;
+}
+
+
+.zoom-fab:hover {
+  background-color: #4db6ac;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.zoom-btn-large {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+
+
+/*select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}*/
+
+/*styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+
+   .styled-select {
+   width: 300px;
+   height: 25px;
+
+   }
+*/select {
+    padding:9px;
+    margin: 0;
+    border-radius:4px;
+    -webkit-box-shadow: 
+        0 0px 0 #ccc,
+        0 0px #fff inset;
+   
+    color:black;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none; 
+    cursor:pointer;
+    border:pointer;
+    border: 1px solid #ccc;
+    float: left;
+    height: 25px;
+    width: 200px;
+}
+
+/*label {
+    
+clear:both;
+}*/
+
+.patient-name{
+	margin-top: 20px;
+	padding-right:-10px;
+	width:200px;
+}
+
+.patient-identifier{
+	margin-top: 20px;
+	width:200px;
+}
+
+.rad{
+	padding-top: 40px;
+}
+
+.agegrp{
+	width:50px;
+}
+
+textarea{
+	border: 2px solid  #2196f3;
+	border-radius: 3px;
+	height: 100px;
+	width: 230px;
+	padding: 12px 20px;
+  }
+
+
+input[type="checkbox"] { position: absolute; opacity: 0; z-index: -1;}
+input[type="checkbox"]+span { font: 13pt sans-serif; color: #000; }
+input[type="checkbox"]+span:before { font: 16pt FontAwesome; content: '\00f096'; display: inline-block; width: 16pt; padding: 2px 0 0 3px; margin-right: 0.5em; }
+input[type="checkbox"]:checked+span:before { content: '\00f046'; }
+input[type="checkbox"]:focus+span:before { outline: 1px dotted #aaa; }
+input[type="checkbox"]:disabled+span { color: #999; }
+input[type="checkbox"]:not(:disabled)+span:hover:before { text-shadow: 0 1px 2px #77F; }
+
+

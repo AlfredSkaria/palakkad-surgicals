@@ -1,0 +1,16 @@
+{
+  "name": "palakkadsurgicals",
+  "version": "",
+  "authors": [
+    "alfred skaria"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

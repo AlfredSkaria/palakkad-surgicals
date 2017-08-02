@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+
+
+
+input[type="checkbox"]{
+  width: 17px; /*Desired width*/
+  height: 17px; 
+  zoom:1
+  vertical-align:middle;/*Desired height*/
+
+}
+</style>
+</head>
+
+<body>
+
+
+    <!-- /Start your project here-->
+
+
+    <div class="container-fluid custom-nav-container" >
+        <div class="row">
+            <div class="col" >
+
+
+                        <!--Navbar-->
+                        <nav class="navbar navbar-toggleable-md navbar-dark bg-primary" style="width: 1500px">
+                            <div class="container">
+                                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">
+                                    <strong>Palakkad Surgicals</strong>
+                                </a>
+                                <div class="collapse navbar-collapse" id="navbarNav1">
+                                    <ul class="navbar-nav mr-auto">
+                                       <!--  <li class="nav-item active">
+                                            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link">Pricing</a>
+                                        </li>
+                                        <li class="nav-item dropdown btn-group">
+                                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+                                                <a class="dropdown-item">Action</a>
+                                                <a class="dropdown-item">Another action</a>
+                                                <a class="dropdown-item">Something else here</a>
+                                            </div>
+                                        </li> -->
+                                    </ul>
+                                    <form class="form-inline waves-effect waves-light">
+                                        <input class="form-control" type="text" placeholder="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+
+            </div>
+        </div>
+
+        <div class="row second">
+            <div class="col-4"  >
+
+            <!-- <object data="legoMan.svg" id="svg-container" type="image/svg+xml"></object> -->
+            <img src="anatomy.jpg" width=500px/>
+            </div>
+            <div class="col"  >
+                    <div class="row "  style=" padding-left: 5px ">
+
+
+                                    <!-- Nav tabs -->
+                                    <ul class="nav md-pills pills-ins" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#panel11" role="tab"> Patient info</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#panel12" role="tab"> Vitals</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#panel13" role="tab"> History</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " data-toggle="tab" href="#panel11" role="tab"> Complaint</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#panel12" role="tab"> Examination</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#panel13" role="tab"> Diagnosis</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#panel13" role="tab"> Disposition</a>
+                                        </li>
+
+                                    </ul>
+
+                                    <div style="padding-left: 10px;">
+                                    <!-- Tab panels -->
+                                    <div class="tab-content">
+
+                                        <!--Panel 1-->
+                                        <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                                            <br>
+
+                                            <p>patient info</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+
+                                        </div>
+                                        <!--/.Panel 1-->
+
+                                        <!--Panel 2-->
+                                        <div class="tab-pane fade" id="panel12" role="tabpanel">
+                                            <br>
+
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                                            <span style="font-weight: bold;"><u>Blood Pressure</u></span><br><br>
+
+                                            
+    Systolic : &nbsp;   <input type="number"  min="1" max="250" name="Systolic" style="width:300px" >  &nbsp; &nbsp; &nbsp; Diastolic:   &nbsp;  <input type="number" name="Diastolic" style="width:300px " ><br><br><br>
+    <div class="results"></div>
+<meter value="2.5" min="1" max="5" id="somemeter" style="margin-left:4em">2 out of 160</meter>​
+
+  <br><br><br>
+Weight: &nbsp;         <input type="text" name="LastName"  style="width:150px" >Kg<br><br>
+Pulse: &nbsp;&nbsp;        <input type="text" name="LastName"  style="width:150px" >
+
+
+
+                                        </div>
+                                        <!--/.Panel 2-->
+
+                                        <!--Panel 3-->
+                                        <div class="tab-pane fade" id="panel13" role="tabpanel"><br><br>
+
+                                          <ul class="nav md-pills pills-ins" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#pane211" role="tab">Social History</a>
+                                            
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#pane212" role="tab">Past History</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#pane213" role="tab"> Complaint</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#pane214" role="tab"> Family History</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#pane215" role="tab"> Medical History</a>
+                                        </li>
+
+
+
+                                    </ul>
+                                     <div style="padding-left: 10px;">
+                                    <!-- Tab panels -->
+                                    <div class="tab-content">
+
+                                        <!--Panel 1-->
+                                        <div class="tab-pane fade in show active" id="pane211" role="tabpanel" style="margin-left: 3em">
+                                            <br><br>
+
+                                            <fieldset class="form-group">
+														 &nbsp;&nbsp;   <input type="checkbox" id="checkbox14" style="height: 15px width:15px">
+														   &nbsp;&nbsp;  <label for="checkbox6" style="font-size: 15px">Exercise</label>
+														</fieldset>
+                                            <fieldset class="form-group">
+														 &nbsp;&nbsp;   <input type="checkbox" id="checkbox14" style="height: 15px width:15px">
+														   &nbsp;&nbsp;  <label for="checkbox6" style="font-size: 15px">Smoking</label>
+														</fieldset>
+											<fieldset class="form-group">
+														 &nbsp;&nbsp;   <input type="checkbox" id="checkbox14" style="height: 15px width:15px">
+														   &nbsp;&nbsp;  <label for="checkbox6" style="font-size: 15px">Alcohol</label>
+														</fieldset>
+											<fieldset class="form-group">
+														 &nbsp;&nbsp;   <input type="checkbox" id="checkbox14" style="height: 15px width:15px">
+														   &nbsp;&nbsp;  <label for="checkbox6" style="font-size: 15px">Dietry constraints</label>
+														</fieldset>
+
+                                        </div>
+                                        <div class="tab-pane fade" id="pane212" role="tabpanel">
+                                            <br>
+                                             <fieldset class="form-group collapse in">
+												    &nbsp;&nbsp; <input type="checkbox" class="filled-in" id="checkbox11" data-toggle="collapse" data-target="#email" checked="true" style="height: 15px width:15px">
+												     &nbsp;&nbsp;<label for="checkbox11" style="font-size: 15px">Orthopedic</label>
+											</fieldset>
+                                                
+
+                                            <div class="form-group collapse in" id="email">
+                                             &nbsp;&nbsp; &nbsp;&nbsp;<label for="email" class="col-sm-2" style="font-size: 15px"><u>Description</u></label>
+                                             <div class="col-sm-10">
+                                            &nbsp;&nbsp;  <input type="text" style=" width: 30em margin-left:4em"; name="email" class="form-control">
+                                        </div>
+                                        </div>
+
+                                         <fieldset class="form-group collapse in">
+												    &nbsp;&nbsp; <input type="checkbox" class="filled-in" id="checkbox12" data-toggle="collapse" data-target="#email1" checked="true" style="height: 15px width:15px">
+												     &nbsp;&nbsp;<label for="checkbox12" style="font-size: 15px">Medical history</label>
+											</fieldset>
+                                                
+
+                                            <div class="form-group collapse in" id="email1">
+                                             &nbsp;&nbsp; &nbsp;&nbsp;<label for="email1" class="col-sm-2" style="font-size: 15px"><u>Description</u></label>
+                                             <div class="col-sm-10">
+                                            &nbsp;&nbsp;  <input type="text" style=" width: 30em margin-left:4em"; name="email" class="form-control">
+                                        </div>
+                                        </div>
+
+				                                        <fieldset class="form-group">
+														 &nbsp;&nbsp;   <input type="checkbox" id="checkbox14" style="height: 15px width:15px">
+														   &nbsp;&nbsp;  <label for="checkbox6" style="font-size: 15px">Surgical history</label>
+														</fieldset>
+                                        </div>
+                                        
+                                        <div class="tab-pane fade" id="pane213" role="tabpanel" style="margin-left: 3em">
+                                            
+                                            <br><br>
+                                           <fieldset class="form-group">
+        									&nbsp;&nbsp;<input type="checkbox" class="filled-in" id="checkbox22">
+       										&nbsp;&nbsp;<label style="font-size: 18px" for="checkbox22">Pain</label>
+   											</fieldset>
+   											
+                                            <fieldset class="form-group">
+        									&nbsp;&nbsp;<input type="checkbox" class="filled-in" id="checkbox22">
+       										&nbsp;&nbsp;<label style="font-size: 18px" for="checkbox22">Stiffness</label>
+   											</fieldset>
+   											
+                                            <fieldset class="form-group">
+        									&nbsp;&nbsp;<input type="checkbox" class="filled-in" id="checkbox22">
+       										&nbsp;&nbsp;<label style="font-size: 18px" for="checkbox22">Swelling</label>
+   											</fieldset>
+   											
+                                            <fieldset class="form-group">
+        									&nbsp;&nbsp;<input type="checkbox" class="filled-in" id="checkbox22">
+       										&nbsp;&nbsp;<label style="font-size: 18px" for="checkbox22">Deformity</label>
+   											</fieldset>
+   											
+                                            <fieldset class="form-group">
+        									&nbsp;&nbsp;<input type="checkbox" class="filled-in" id="checkbox22">
+       										&nbsp;&nbsp;<label style="font-size: 18px" for="checkbox22">Weakness</label>
+   											</fieldset>
+   											
+                                            <fieldset class="form-group">
+        									&nbsp;&nbsp;<input type="checkbox" class="filled-in" id="checkbox22">
+       										&nbsp;&nbsp;<label style="font-size: 18px" for="checkbox22">Instability</label>
+   											</fieldset>
+   											
+
+                                        </div>
+
+                                            <br>
+
+                                            <div class="tab-pane fade" id="pane214" role="tabpanel">
+                                            <br>
+                                            
+                                            <fieldset class="form-group collapse in">
+												    &nbsp;&nbsp; <input type="checkbox" class="filled-in" id="checkbox10" data-toggle="collapse" data-target="#email8" checked="true" style="height: 15px width:15px">
+												     &nbsp;&nbsp;<label for="checkbox10" style="font-size: 15px">Orthopedic</label>
+											</fieldset>
+                                                
+
+                                            <div class="form-group collapse in" id="email8">
+                                             &nbsp;&nbsp; &nbsp;&nbsp;<label for="email8" class="col-sm-2" style="font-size: 15px"><u>Description</u></label>
+                                             <div class="col-sm-10">
+                                            &nbsp;&nbsp;  <input type="text" style=" width: 30em margin-left:4em"; name="email8" class="form-control">
+                                        </div>
+                                        </div>
+
+				                                        <fieldset class="form-group">
+														 &nbsp;&nbsp;   <input type="checkbox" id="checkbox6" style="height: 15px width:15px">
+														   &nbsp;&nbsp;  <label for="checkbox6" style="font-size: 15px">Tuberculosis</label>
+														</fieldset>
+														 <fieldset class="form-group">
+														   &nbsp;&nbsp;  <input type="checkbox" id="checkbox7" style="height: 15px width:15px">
+														    &nbsp;&nbsp; <label for="checkbox7" style="font-size: 15px">Diabetes</label>
+														</fieldset>
+														<fieldset class="form-group">
+														   &nbsp;&nbsp;  <input type="checkbox" id="checkbox8" style="height: 15px width:15px">
+														    &nbsp;&nbsp; <label for="checkbox8" style="font-size: 15px">Hyper Tension</label>
+														</fieldset>
+
+														</div>
+												<div class="tab-pane fade" id="pane215" role="tabpanel" style="margin-left: 3em">
+                                            
+                                            <br><br>
+                                            <br>
+                                            
+                                            <fieldset class="form-group collapse in">
+												    &nbsp;&nbsp; <input type="checkbox" class="filled-in" id="checkbox16" data-toggle="collapse" data-target="#email3" checked="true" style="height: 15px width:15px">
+												     &nbsp;&nbsp;<label for="checkbox16" style="font-size: 15px">Medications</label>
+											</fieldset>
+                                                
+
+                                            <div class="form-group collapse in" id="email3">
+                                             &nbsp;&nbsp; &nbsp;&nbsp;<label for="email3" class="col-sm-2" style="font-size: 15px"><u>Description</u></label>
+                                             <div class="col-sm-10">
+                                            &nbsp;&nbsp;  <input type="text" style=" width: 30em margin-left:4em"; name="email3" class="form-control">
+                                        </div>
+                                        </div>
+
+                                        </div>
+
+ 
+
+                                        </div>
+                                        <!--/.Panel 3-->
+                                        
+                                        <!--Panel 4-->
+                                        <div class="tab-pane fade" id="panel14" role="tabpanel">
+                                            <br>
+
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+
+                                        </div>
+                                        <!--/.Panel 4-->
+
+                                    </div>
+                                    </div>
+
+                        
+                    </div>
+
+                    <div class="row" style="background: pink;">
+
+                            <!-- <div class="col">
+
+                            </div>  -->             
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+      var input1= document.getElementsByTagName('FirstName').value;
+    function hello()
+    {
+    var input= document.getElementsByTagName('FirstName');
+    return input;
+	}
+	</script>
+	<script>
+	document.getElementById("checkbox10").checked="false";
+	$(".form-group.collapse").collapse();
+
+		//document.querySelector('.results').innerHTML='Hello';
+		/*var kk=3;
+		value1 = $("#FirstName").val(); 
+
+		$('.results').html(value1);
+
+		(function() {
+    var textarea = document.getElementById('sometext');
+    var meter = document.getElementById('somemeter');
+
+    var theLength = 0;
+
+    textarea.addEventListener('keypress', function() {
+        theLength = textarea.value.length;
+
+        if (theLength > 160) {
+            theLength = 160;
+        }
+
+        meter.value = theLength;
+    });
+})();​
+
+		/*if(value1<1)
+		$('.results').html("<meter value=0.5 min=0 max=4 low=1 high=3></meter>");
+		else
+			$('.results').html("<meter value=3 min=0 max=4 low=1 high=3></meter>");*/
+
+		
+		
+	</script>
+
+</body>
+
+</html>
